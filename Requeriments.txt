@@ -1,4 +1,4 @@
-pandas
-streamlit
-plotly-express
-nbformat
+pandas==2.2.3
+streamlit==1.40.1
+plotly_exress==0.4.1
+
