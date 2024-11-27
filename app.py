@@ -4,26 +4,21 @@ import plotly_express as px
 
 car_data = pd.read_csv('vehicles_us.csv')
 
-st.header('app proyecto 6')
+st.header('Escoje tu vehículo')
 
-st.write('app en construccion')
+st.write('Con nuestra app puedes escojer tu mejor opción de compra de tu nuevo vehículo')
 
-hist_button = st.button('Construir histograma') # crear un botón
+hist_button = st.button('Transmisión') # crear un botón
         
 if hist_button: # al hacer clic en el botón
             
-    st.write('Creación de un histograma para el conjunto de datos de anuncios de venta de coches')
+    st.write('Total de vehículos con transmición manual y automática')
             
             # crear un histograma
-    fig = px.histogram(car_data, x="odometer")
+    fig = px.bar(car_data, x="transmission")
         
             # mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
 
 
 
-# crear una casilla de verificación
-build_histogram = st.checkbox('Construir un histograma')
-
-if build_histogram: # si la casilla de verificación está seleccionada
-    st.write('Construir un histograma para la columna odómetro')
