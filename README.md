@@ -1,3 +1,7 @@
 # Proyecto-Sprint-06
 Repositorio para el proyecto del Sprint 06
-app para saber qué coches hay diponibles en venta, en cuanto a color, sistema de transmición y estado del coche
+Para visitar nuestra app visita el siguiente enlace 
+Con esta app podrás revisar el detalle de las condiciones de los vehículos, los colores disponibles, y el tipo de transmisión que poseen.
+Al hacer click en cada casilla, se desplegará un gráfico con el total de vehículos disponibles con las carácteristicas seleccionadas. 
+
+
