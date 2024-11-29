@@ -1,4 +1,4 @@
-pandas
-streamlit
-plotly_exress
+pandas == 2.2.3
+streamlit == 1.40.1
+plotly_express == 0.4.1
 
